@@ -1,0 +1,18 @@
+[versionner]
+file = .VERSION
+date_format = %d-%m-%Y
+up_part = minor
+default_init_version = 0.1.0
+
+[vcs]
+engine = git
+commit_message = '%(version)s'
+
+[file:run.py]
+enabled = true
+search = ^\s*__version__\s*=.*$
+replace = __version__ = '%(version)s'
+date_format = %d-%m-%Y
+match = line
+search_flags = 
+encoding = utf-8
