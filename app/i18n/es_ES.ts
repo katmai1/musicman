@@ -3,8 +3,18 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ui/mainwindow_Ui.py" line="38"/>
-        <source>PyQt5 Template</source>
+        <location filename="../ui/mainwindow_Ui.py" line="82"/>
+        <source>Music Manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow_Ui.py" line="83"/>
+        <source>Artist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow_Ui.py" line="84"/>
+        <source>Album</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
