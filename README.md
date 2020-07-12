@@ -1,5 +1,7 @@
-# template-pyqt5
-template for pyqt5 apps
+# Music Manager
+
+PyQt5 App to clean and organize music colection.
+
 
 ## Features
 
