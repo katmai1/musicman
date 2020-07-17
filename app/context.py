@@ -20,7 +20,7 @@ class ContextoApp:
         signal(SIGINT, SIG_DFL)
 
     def run(self):
-        self.window.showMaximized()
+        self.window.show()
         return self.app.exec()
 
     def tr(self, context, message):
